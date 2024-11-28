@@ -157,6 +157,9 @@ return {
         synchronize = '=',
         trim_left   = '<',
         trim_right  = '>',
+	-- tab switching
+	next_window = '<Tab>',
+	prev_window = '<S_Tab>',
       },
 
       -- General options
@@ -183,6 +186,5 @@ return {
     })
   end,
 }
-
 
 }

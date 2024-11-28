@@ -27,6 +27,11 @@ vim.opt.listchars = "tab:→ ,trail:·"
 vim.opt.smartindent = false
 vim.opt.autoindent = false
 
+-- Map <leader>pv to open MiniFiles at the current file's directory
+vim.keymap.set('n', '<leader>do', function()
+    require('mini.files').open(vim.fn.getcwd())
+end, { desc = "Open MiniFiles at root" })
+
 -- vim.opt.listchars = "tab:→ ,trail:·,eol:↴"
 
 -- Setup lazy.nvim
