@@ -1,10 +1,14 @@
 # nvim
-Set up to be modular where each plugin is in their own file.
+
+Set up to be modular where each plugin is in their own file.  
 Barebones. FZFing and telescoping are bloat.
 
-example.lua was stolen from the lazyvim repo that shows examples on how .lua files should be formatted.
+`example.lua` was stolen from the lazyvim repo that shows examples of how `.lua` files should be formatted.
 
-nvim % tree
+## Directory Structure
+
+```text
+nvim
 ├── README.md
 ├── init.lua
 ├── lazy-lock.json
@@ -21,7 +25,5 @@ nvim % tree
         ├── riscv.lua
         ├── theme.lua
         └── todo-comments.lua
-
-
-
+```
 
