@@ -1,9 +1,8 @@
 # nvim
 
 Set up to be modular where each plugin is in their own file.  
-Barebones. FZFing and telescoping are bloat.
+Almost a barebones setup. 
 
-`example.lua` was stolen from the lazyvim repo that shows examples of how `.lua` files should be formatted.
 
 ## Directory Structure
 
