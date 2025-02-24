@@ -47,9 +47,7 @@ return {
 		  -- If `nil` (default), default items will be used (see |mini.starter|).
 		  items = {
 		    -- require("mini.starter").sections.builtin_actions(),
-		    require("mini.starter").sections.recent_files(5, false, false),
 		    require("mini.starter").sections.recent_files(5, true, false),
-		    require("mini.starter").sections.sessions(5, true),
 			},
  
 		  -- Show 10 recent files
